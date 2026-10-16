@@ -53,7 +53,7 @@ export const Hero: React.FC = () => {
         <div className="relative h-[380px] lg:h-[500px] w-full hidden md:block">
           <div className="relative w-full h-full rounded-2xl overflow-hidden border border-white/10 shadow-2xl group">
             <img
-              src="/screen-printing-press.jpg"
+              src={`${import.meta.env.BASE_URL}screen-printing-press.jpg`}
               alt="Moorti Screens - Professional Screen Printing Press in Action"
               loading="eager"
               decoding="async"

@@ -32,7 +32,7 @@ export const About: React.FC = () => {
               {/* Clean circular photo with crisp outline and zero lightening or glow */}
               <div className="w-72 h-72 sm:w-84 sm:h-84 md:w-96 md:h-96 rounded-full overflow-hidden border-2 border-gold/40">
                 <img
-                  src="/founder_avatar.png"
+                  src={`${import.meta.env.BASE_URL}founder_avatar.png`}
                   alt="Moorti Screens Leadership and Master Printing Craftsmanship"
                   loading="lazy"
                   decoding="async"
