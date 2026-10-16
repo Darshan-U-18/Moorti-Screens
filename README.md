@@ -1,32 +1,82 @@
-# React + TypeScript + Vite
+# Moorti Screens 🖨️✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> **Quality Printing. Professional Results.**  
+> Official website for **Moorti Screens** — Designing, Screen, Offset & Multicolour Printing Services.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌟 Overview
 
-## React Compiler
+**Moorti Screens** provides comprehensive designing, screen printing, offset printing, and multicolour printing solutions for businesses, organisations, and individuals. From everyday business stationery to marketing collaterals, invitations, and custom finished print products.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Live URL:** [https://moortiscreens.com](https://moortiscreens.com)
+- **Phone / WhatsApp:** +91 94444 66292 / +91 8610 6936 28
+- **Email:** moortiscreens@gmail.com / moorti_screens@yahoo.in
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## 🚀 Key Features
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+- **High-Performance Architecture:** Built with React 19, TypeScript, Vite, and Tailwind CSS.
+- **Interactive Quote Generator:** Dynamic inquiry form with real-time validation and instant WhatsApp integration.
+- **Full SEO & Rich Snippets:**
+  - Semantic HTML5 structure with optimized headings.
+  - JSON-LD Structured Data (`LocalBusiness` & `PrintingService`).
+  - OpenGraph & Twitter Cards for rich social media links.
+  - Pre-configured `sitemap.xml`, `robots.txt`, and `site.webmanifest`.
+- **Responsive & Modern Design:** Tailored luxury navy/gold aesthetic with smooth micro-interactions across mobile, tablet, and desktop viewports.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** React 19 (`react`, `react-dom`)
+- **Language:** TypeScript 6.0
+- **Build Tool:** Vite 8.3
+- **Styling:** Tailwind CSS 3.4 & PostCSS
+- **Icons:** Lucide React
+- **Linter:** Oxlint
+
+---
+
+## 💻 Getting Started
+
+### Prerequisites
+
+- Node.js (v18+ recommended)
+- npm or pnpm
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Darshan-U-18/Moorti-Screens.git
+
+# Navigate to project directory
+cd Moorti-Screens
+
+# Install dependencies
+npm install
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+### Development Server
+
+```bash
+npm run dev
+```
+
+Runs the app in development mode at `http://localhost:5000/`.
+
+### Production Build
+
+```bash
+npm run build
+```
+
+Compiles TypeScript and bundles production-ready assets into the `dist/` folder.
+
+---
+
+## 📄 License
+
+© 2026 Moorti Screens. All rights reserved.
